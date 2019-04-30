@@ -1,0 +1,23 @@
+{
+	"name" : "payxpert/gatewayclient",
+	"description" : "Payxpert Gateway API",
+	"version" : "2.0.9",
+	"license" : "Apache-2.0",
+	"keywords" : [
+		"payment",
+		"credit card",
+		"bank transfer",
+		"SEPA direct debit"
+	],
+	"homepage" : "https://github.com/SwissWeb/payxpert-payment-gateway-client-php",
+	"autoload" : {
+		"psr-4" : {
+			"PayXpert\\GatewayClient\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">= 5.2",
+		"ext-curl" : "*",
+		"ext-json" : "*"
+	}
+}
