@@ -82,7 +82,7 @@ class GatewayTransaction {
 
     $this->extraCurlOptions = $extraCurlOptions;
 
-    $this->requestObject = new stdClass();
+    $this->requestObject = new \stdClass();
   }
 
   // /////////////////////////////////
@@ -761,7 +761,7 @@ class GatewayTransaction {
    * @return object responseObject
    */
   private function setError($message, $code) {
-    $responseObject = new stdClass();
+    $responseObject = new \stdClass();
     $responseObject->errorMessage = $message;
     $responseObject->errorCode = $code;
 

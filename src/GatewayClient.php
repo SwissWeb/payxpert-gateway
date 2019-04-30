@@ -53,7 +53,7 @@ class GatewayClient {
    * @param string|null $password
    */
   public function setProxy($host = null, $port = null, $username = null, $password = null) {
-    $this->proxy = new stdClass();
+    $this->proxy = new \stdClass();
     $this->proxy->host = $host;
     $this->proxy->port = $port;
     $this->proxy->username = $username;
