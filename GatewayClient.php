@@ -1,6 +1,6 @@
 <?php
 
-namespace PayXpert\GatewayClient;
+namespace PayXpert\Gateway;
 
 /**
  * Client for the PayXpert Payment Gateway
